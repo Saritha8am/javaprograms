@@ -4,6 +4,14 @@ public class Clock {
 	
 	private int hr,min,sec;
 	
+	 public Clock()
+	{
+		System.out.println("you have entered into constructor");
+	}
+	public void getData()
+	{
+		System.out.println("you have entered into constructor");
+	}
 	public void setClock(int hr)
 	{
 		this.hr=hr;
