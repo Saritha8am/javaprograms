@@ -11,15 +11,48 @@ public class InheritDemo1 {
 		
 		//s1.getData();
 		
-		Marks s1=new Marks();
+		//Marks s1=new Marks();
+		
+		//s1.setData(1, "Ram");
+		
+		//s1.setMarks(80, 90, 80);
+		
+		//s1.getData();
+		
+		//s1.getResults();
+		
+		
+		Leave s1=new Leave();
 		
 		s1.setData(1, "Ram");
 		
 		s1.setMarks(80, 90, 80);
 		
+		s1.setLeaves(5, 10);
+		
 		s1.getData();
 		
 		s1.getResults();
+		
+		s1.getLeaves();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 
