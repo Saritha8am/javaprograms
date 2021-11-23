@@ -2,6 +2,7 @@ package day17;
 
 import java.awt.List;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayList1 {
 
@@ -38,14 +39,25 @@ public class ArrayList1 {
 		
 		//System.out.println(a.get(0));
 		
-		for(int i=0;i<a.size();i++)
+		/*
+		 * for(int i=0;i<a.size();i++) { System.out.println(a.get(i)); }
+		 * 
+		 * System.out.println(a.size());
+		 */
+		
+		Iterator<Integer> it=a.iterator();
+		
+		while(it.hasNext())
 		{
-			System.out.println(a.get(i));
+			
+			System.out.println("Before Cursor Move"+it.hasNext());
+			
+			System.out.println(it.next());
+			
+			System.out.println("After Cursor Move"+it.hasNext());
+			
+			
 		}
-		
-		System.out.println(a.size());
-		
-		
 		
 		
 		
